@@ -1,12 +1,12 @@
 site_name: PDFTA
-site_author: Author Name
+site_author: jaspajjr
 site_description: >-
   Site Description
 repo_name: blog
-repo_url: https://github.com/jxnl/blog/
-site_url: https://jxnl.co/
+repo_url: https://github.com/pdfta/pdfta.com/
+site_url: https://www.pdfta.com
 edit_uri: edit/main/docs/
-copyright: Copyright &copy; 2024 Jason Liu 
+copyright: Copyright &copy; 2024 PDFTA 
 theme:
   name: material
   icon:
@@ -113,6 +113,8 @@ nav:
     - Introductions: 'index.md'
   - Blog:
     - "blog/index.md"
+  - Pages:
+    - "pages/index.md"
 plugins:
   - social
   - search:
