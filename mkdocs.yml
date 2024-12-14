@@ -9,6 +9,7 @@ edit_uri: edit/main/docs/
 copyright: Copyright &copy; 2024 PDFTA 
 theme:
   name: material
+  favicon: images/favicon.png
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil 
@@ -113,8 +114,6 @@ nav:
     - Introductions: 'index.md'
   - Blog:
     - "blog/index.md"
-  - Pages:
-    - "pages/index.md"
 plugins:
   - social
   - search:
@@ -140,9 +139,9 @@ extra:
     property: G-XXXX
   social:
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/jxnlco # TODO: add link
+      link: https://twitter.com/jaspajjr # TODO: add link
     - icon: fontawesome/brands/github
-      link: https://github.com/jxnl # TODO: add link
+      link: https://github.com/pdfta # TODO: add link
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
@@ -150,4 +149,4 @@ extra_javascript:
   - javascripts/analytics.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-copyright: Copyright &copy; 2023 Jason Liu
+copyright: Copyright &copy; 2024 PDFTA
